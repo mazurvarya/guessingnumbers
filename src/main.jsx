@@ -8,25 +8,3 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
-// if (isNaN(guess)) {
-//   setMessage('Пожалуйста, введите число.');
-//   return;
-// }
-
-
-// 31
-// setAttempts(attempts + 1);
-
-// if (guess < randomNumber) {
-//   setMessage('Больше');
-
-// } else if (guess > randomNumber) {
-//   setMessage('Меньше');
-
-// } else {
-//   setMessage('Угадал!');
-//   setGameOver(true);
-// }
-
-// 46
-// <button onClick={checkGuess} disabled={gameOver}>Проверить</button>
